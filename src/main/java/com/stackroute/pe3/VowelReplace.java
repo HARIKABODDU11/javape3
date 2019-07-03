@@ -1,7 +1,7 @@
 package com.stackroute.pe3;
 
     public class VowelReplace {
-        public static String[] removeVowel(String[] a) {
+        public static String[] removeVowel(String[] a) { //this method will replace vowela with null
             int i = 0;
             String[] result = new String[2];
             if (a.length <= 0) {

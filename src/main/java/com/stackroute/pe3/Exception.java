@@ -1,7 +1,7 @@
 package com.stackroute.pe3;
 
-public class Exception {
-        public static String arrayhandling(int size, int[] array,Exception e) {
+public class Exception extends Throwable {
+        public static String arrayhandling(int size, int[] array,Exception e) { // this method will shows all type of exceptions
             String str = "";
             try {
                 if (size < 0) throw new NegativeArraySizeException();

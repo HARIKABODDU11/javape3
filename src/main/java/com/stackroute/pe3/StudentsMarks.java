@@ -3,7 +3,7 @@ package com.stackroute.pe3;
 public class StudentsMarks {
     String r;
 
-    public String marks(int[] stuGrades,int numOfStudents) {
+    public String marks(int[] stuGrades,int numOfStudents) { //this method will consider the students grades and indicates success or failure
         if(stuGrades.length!=numOfStudents)
             r="error";
         else{

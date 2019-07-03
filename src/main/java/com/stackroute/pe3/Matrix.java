@@ -1,7 +1,7 @@
 package com.stackroute.pe3;
 
     public class Matrix {
-        public static int[][] SumOfMatrixElements(int[][] a, int[][] b) {
+        public static int[][] SumOfMatrixElements(int[][] a, int[][] b) { // this method will add the two dimensional matrix
             int[][] c = new int[3][2];
             int i = 0, j = 0;
             if (a.length - 1 <= 0 || b.length - 1 <= 0) {

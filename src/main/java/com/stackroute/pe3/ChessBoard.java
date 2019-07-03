@@ -1,6 +1,6 @@
 package com.stackroute.pe3;
 
-public class ChessBoard {
+public class ChessBoard { // this method will represent the chess board rows and coloums
 
         public static String[][] display(int rows, int cols) {
             {
